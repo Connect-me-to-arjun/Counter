@@ -1,0 +1,3 @@
+export const SET_COUNTER_VALUE = 'SET_COUNTER_VALUE';
+export const SET_LOADER_TRUE = 'SET_LOADER_TRUE';
+export const GET_MAX_VALUE = 'GET_MAX_VALUE';

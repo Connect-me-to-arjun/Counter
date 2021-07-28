@@ -1,0 +1,58 @@
+.counterContainer {
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+  height: 56px;
+  align-items: center;
+  font-family: 'Tahoma', Courier, monospace;
+  font-size: 21px;
+  font-weight: 600;
+}
+.counterContainer > .counterValue {
+  border: 2px solid #b24242;
+  background-color: #fbe8e8;
+  color: #b24242;
+  padding: 0px;
+  font-size: 21px;
+  text-align: center;
+}
+
+.counterContainer > .incrementWrapper {
+  border-top: 2px solid #b24242;
+  border-right: 2px solid #b24242;
+  border-bottom: 2px solid #b24242;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #b24242;
+  color: #ffffff;
+}
+.counterContainer > .decrementWrapper {
+  border-top: 2px solid #b24242;
+  border-left: 2px solid #b24242;
+  border-bottom: 2px solid #b24242;
+  color: #b24242;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.decrementWrapper,
+.incrementWrapper,
+.counterValue {
+  cursor: pointer;
+  width: 60px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  outline: none;
+}
